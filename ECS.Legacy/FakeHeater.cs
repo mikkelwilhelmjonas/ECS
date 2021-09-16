@@ -2,14 +2,16 @@
 {
     public class FakeHeater : IHeater
     {
+        public bool TurnOnCalled { get; set; }
+
         public void TurnOn()
         {
-            System.Console.WriteLine("Heater is on");
+            TurnOnCalled = true;
         }
 
         public void TurnOff()
         {
-            System.Console.WriteLine("Heater is off");
+            TurnOnCalled = false;
         }
 
         public bool RunSelfTest()
