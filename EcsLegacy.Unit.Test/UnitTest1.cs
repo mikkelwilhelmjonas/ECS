@@ -6,7 +6,7 @@ using NSubstitute;
 using ECS = ECS.Legacy.ECS;
 
 
-namespace Ecs.Legacy.Test.Unit
+namespace EcsLegacy.Test.Unit
 {
     [TestFixture]
     public class ECSTests
