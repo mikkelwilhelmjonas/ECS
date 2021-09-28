@@ -2,6 +2,7 @@
 
 namespace ECS.Legacy
 {
+#if false
     public class FakeTempSensor : ITempSensor
     {
         private Random gen = new Random();
@@ -16,4 +17,5 @@ namespace ECS.Legacy
             return true;
         }
     }
+#endif
 }

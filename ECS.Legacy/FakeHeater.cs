@@ -1,5 +1,6 @@
 ﻿namespace ECS.Legacy
 {
+    #if false
     public class FakeHeater : IHeater
     {
         public bool TurnOnCalled { get; set; }
@@ -20,4 +21,5 @@
         }
 
     }
+#endif
 }
